@@ -1,0 +1,51 @@
+{
+    "name": "albertost876/schedule",
+    "description": "Brind a schedule to WEB",
+    "version": "1.0.0-dev",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "minimum-stability": "dev",
+    "time": "2022-11-03 10:00:00",
+    "authors": [
+        {
+            "name": "Alberto Sánchez Torreblanca",
+            "email": "albertost876.ast@gmail.com",
+            "homepage": "https://albertost.sytes.net/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-mysqli": "*"
+    },
+    "require-dev": {
+        "php": ">=8.1",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schedule\\Classes\\": "src/classes/"
+        },
+        "files": [
+            "./src/functions/add.php",
+            "./src/functions/checks.php",
+            "./src/functions/delete.php",
+            "./src/functions/events.php",
+            "./src/functions/login.php",
+            "./src/functions/register.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Schedule\\Classes\\": "src/classes/"
+        },
+        "files": [
+            "./src/functions/add.php",
+            "./src/functions/checks.php",
+            "./src/functions/delete.php",
+            "./src/functions/events.php",
+            "./src/functions/login.php",
+            "./src/functions/register.php"
+        ]
+    }
+}
